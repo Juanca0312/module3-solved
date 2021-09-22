@@ -1,0 +1,58 @@
+body {
+  font-size: 16px;
+  color: #D9B664;
+  background-color: #1F1F27;
+  font-family: 'Oxygen', sans-serif;
+}
+
+li {
+  text-align: center;
+  border: .5px solid #D9B664; 
+  background-color: beige;
+}
+
+#title2{
+  color: #F8F8F8;
+  margin-bottom: 30px;
+  font-size: 2em;
+
+}
+h1{
+  font-size: 2.5em;
+  font-weight: 700;
+}
+
+.content-main{
+  background-color: #E6E7E2;
+  margin: auto;
+  height: 1000px;
+  color: #000;
+  font-size: 20px;
+
+}
+
+
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  .content-main{
+    background-color: #E6E7E2;
+    margin: auto;
+    width: 80%;
+    float: none;
+  }
+}
+
+
+
+
